@@ -1,0 +1,188 @@
+@import 'bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+.bgbody{    
+    animation:cambiarColor1 .6s ease infinite;
+}
+@keyframes cambiarColor1{
+    0%{
+        background-image: linear-gradient(to bottom right, rgb(111, 101, 255), rgb(163, 229, 255));
+    }
+    50%{
+        background-image: linear-gradient(to bottom right, rgb(163, 229, 255), rgb(111, 101, 255));
+    }
+    100%{
+        background-image: linear-gradient(to bottom right, rgb(111, 101, 255), rgb(163, 229, 255));
+    }
+}
+
+.inilink{
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+}
+.inilink:hover{
+    font-weight: 400;
+    text-shadow: 1px 1px 2px  #000;
+}
+.nav-link{
+    font-size: 20px;
+    
+}
+.nav-link:hover{
+    background-color: rgb(210, 210, 210);
+    box-shadow: 2px 2px 4px rgb(115, 115, 115);
+    border-radius: 2%;
+    transition: .7s ease;
+    color: aliceblue;
+}
+.nav-link-act{
+    background-color: rgb(210, 210, 210);
+    box-shadow: 2px 2px 4px rgb(115, 115, 115);
+    border-radius: 2%;
+    transition: .7s ease;
+    color: aliceblue;
+}
+.c-link-yellow-act{    
+    text-shadow: 1px 1px 2px red, 0 0 1em yellow, 0 0 0.2em yellow !important; 
+}
+.c-link-yellow:hover{    
+    text-shadow: 1px 1px 2px red, 0 0 1em yellow, 0 0 0.2em yellow !important; 
+}
+.c-link-green:hover{    
+    text-shadow: 1px 1px 2px green, 0 0 1em green, 0 0 0.2em green !important; 
+}
+.c-link-green-act{    
+    text-shadow: 1px 1px 2px green, 0 0 1em green, 0 0 0.2em green !important; 
+}
+.c-link-red:hover{    
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red !important; 
+}
+.c-link-red-act{    
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red !important; 
+}
+.c-link-profile:hover{    
+    text-shadow: 1px 1px 2px #000, !important; 
+    color: #000;
+}
+
+.box-btn-cross{
+    padding: 0%;
+    height: 100px;
+    width: 100px;    
+}
+.btn-cross{
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%;
+    background-color: rgb(0, 0, 255);
+    box-shadow: 4px 4px 8px rgb(115, 115, 115);
+}
+.btn-cross:hover{
+    background-color: rgb(3, 3, 197);
+    border: 1px solid #ffffff;
+    box-shadow: 4px 4px 8px rgb(56, 56, 56);
+    cursor: pointer;
+}
+.btn-cross:active{
+    background-color: rgb(2, 2, 118);
+    border: 1px solid #ffffff;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.listgoals{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-height: 300px;
+    overflow-y:scroll;
+}
+.scroll-li{
+    height: 500px;
+    overflow-y:scroll;
+}
+
+/* ------ Diseño Boton Nuevo ------ */
+
+#cross{
+    position: absolute;
+    background-color: #ffffff;
+    height: 60px;
+    width: 10px;
+    border-radius: 8px;
+    margin-left: 44px;
+    margin-top: 18px;
+}
+#cross::after{
+    position: absolute;
+    content:"";
+    background-color: #ffffff;
+    height: 10px;
+    width: 60px;
+    border-radius: 8px;
+    left: -25px;
+    top: 28px;
+}
+
+/* ----------- Actions -----------*/
+
+.fontitle{
+    font-family: Lugrasimo;
+}
+
+.left-side{
+    background-color: rgba(86, 255, 255, 0.371);
+    border-radius: 10px;
+}
+.right-side{
+    background-color: rgba(218, 86, 255, 0.371);
+    border-radius: 10px;
+}
+.crd{
+    width: 16rem;
+    box-shadow: 2px 2px 2px 4px #000;
+    transition: .7s ease;
+}
+.crd:hover{
+    box-shadow: 3px 3px 8px 10px #000;
+    width: 17rem;
+    height: 20rem;    
+}
+.crd-color{
+    background-color: gray;
+}
+
+.card-img, .card-img-top, .card-img-bottom{
+    height: 115px;
+}
+
+.li-green{
+    background-color: rgba(92, 228, 92, 0.654);
+}
+
+.del-td{
+    color: #000;
+    text-decoration:none; 
+}
+.del-td:hover{
+    color: red;       
+}
+
+.cont-show{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.viewProject{
+    background-color: rgba(245, 247, 150, 0.719);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 8px #000;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.prolist{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+}
