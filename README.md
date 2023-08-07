@@ -10,7 +10,8 @@ Bootstrap y Css para los estilos y autenticación, y Mysql como base de datos.
 El archivo que contiene la base de datos se encuentra en la raíz del proyecto con el nombre de
 "goaldb.sql"
 
-###Imagenes de Goal
+## Imagenes de Goal:
+
 ![](https://github.com/yulito/goals/blob/main/imagen1.png)
 ![](https://github.com/yulito/goals/blob/main/imagen2.png)
 ![](https://github.com/yulito/goals/blob/main/imagen3.png)
